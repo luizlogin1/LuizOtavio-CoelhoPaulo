@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="Style.css">
+		<title>GreenLife - Rede farmaucêutica</title>
+		<link rel="icon" href="Imagens/Logo/Logo.ico" type="image/x-icon">
+	</head>
+
+	<body>		
+		<div class = "Menu" align="Center">
+      		<ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="Sobre.html">Sobre nós</a></li>
+                <li><a href="Contatos.html">Contatos</a></li>
+                <li><a href="Registro.html">Registro</a></li>
+            </ul>
+		</div>
+
+		<form action="https://teste-reusetech.000webhostapp.com/prova5.php" method="post">
+			<fieldset>
+				<legend>Dados Pessoais:</legend>
+				<label For = "nomecompleto">Nome Completo:</label>
+				<input type="text" name="nomecompleto" id="nomecompleto" required><br>
+				<label For = "data">Data de Nascimento:</label>
+				<input type="date" name="data" id="data" required><br>
+				<label For = "email">E-Mail:</label>
+				<input type="E-Mail" name="email"><br>
+				<label For = "telefone">Telefone:</label>
+				<input type="text" name="telefone"><br>
+				<label For = "sexo">Sexo:</label>
+				<input type="Radio" name="sexo" value="mas"required>
+				<label For = "sexo" >Masculino</label>
+				<input type="Radio" name="sexo" value="fem">
+				<label>Feminimo</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Endereço:</legend>
+				<label For = "estado">Estado:</label>
+				<select name="estado" required>
+					<option selected>Selecione o seu estado</option>
+					<option>Acre (AC)</option>
+					<option>Alagoas (AL)</option>
+					<option>Amapá (AP)</option>
+					<option>Amazonas (AM)</option>
+					<option>Bahia (BA)</option>
+					<option>Ceará (CE)</option>
+					<option>Distrito Federal(DF)</option>
+					<option>Espírito Santo(ES)</option>
+					<option>Goiás (GO)</option>
+					<option>Maranhão (MA)</option>
+					<option>Mato Grosso (MT)</option>
+					<option>Mato Grosso do Sul(MS)</option>
+					<option>Minas Gerais (MG)</option>
+					<option>Pará (PA)</option>
+					<option>Paraíba (PB)</option>
+					<option>Parana (PR)</option>
+					<option>Pernambuco (PE)</option>
+					<option>Piauí (PI)</option>
+					<option>Rio de Janeiro (RJ)</option>
+					<option>Rio Grande do Norte (RN)</option>
+					<option>Rio Grande do Sul (RS)</option>
+					<option>Rondônia (RO)</option>
+					<option>Roraima (RR)</option>
+					<option>Santa Catarina(SC)</option>
+					<option>São Paulo (SP)</option>
+					<option>Sergipe (SE)</option>
+					<option>Tocantins (TO)</option>
+				</select><br>
+				<label For = "cidade">Cidade:</label>
+				<input type="text" name="cidade" id="cidade" maxlength="30" required><br>
+				<label For = "bairro">Bairro:</label>
+				<input type="text" name="bairro" id="bairro" required><br>
+				<label For = "rua">Rua:</label>
+				<input type="text" name="rua" id="rua" required><br>
+				<label For = "numero">Numero:</label>
+				<input type="number" name="numero" id="numero" required><br>
+				<label For = "complemento">Complemento:</label>
+				<input type="text" name="complemento" id="complemento"><br>
+			</fieldset>
+
+
+			<fieldset>
+				<legend>Orçamento:</legend>
+				<label For = "prod">Produto:</label>
+				<select type="text" name="prod" id="prod" required>
+					<option selected>Selecione o produto desjado</option>
+					<option>Açafrão</option>
+					<option>Malva</option>	
+					<option>Dorflex 36 Comprimidos</option>
+					<option>Vitamina C</option>
+					<option>Paracetamol 750 mg com 20 Comprimidos</option>
+				</select><br>
+				<label For = "quant">Quantidade:</label>
+				<input type="number" name="quant" id="quant" required><br>
+				<label For = "preco">Preço:</label>
+				<input type="number" name="preco" id="preco" required><br>
+				<label For = "paga">Forma De Pagamento:</label>
+				<select type="text" name="paga" id="paga" required>
+					<option selected></option>
+					<option>PayPal</option>
+					<option>Boleto Bancario</option>	
+					<option>Boleto Flash</option>
+					<option>Pix</option>
+					<option>Visa (Brasil)</option>
+					<option>Matercard (Brasil)</option>
+					<option>American Express(Brasil)</option>
+					<option>PagSeguro</option>
+					<option>Visa</option>
+					<option>Matercard</option>
+					<option>JCB</option>
+					<option>Banco do Brasil Online</option>
+					<option>Hipercard</option>
+					<option>Diner's Club (Brasil)</option>
+					<option>Aura</option>
+					<option>Visa Electron (nacional)</option>
+				</select><br>
+				<label For="desc">Desconto Desjado</label>
+				<input type="number" name="desc" id="desc" value="0" step=”any”>
+			</fieldset>
+			<center>
+				<input type="reset" value="Resetar"><br>
+				<input type="Submit" value="Enviar"><br>
+			</center>
+		</form>
+	</body>	
+</html>

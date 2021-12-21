@@ -1,0 +1,76 @@
+body{
+    background-color: #BCE05D;
+    border:thin solid black;
+    width: 650px; 
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    color: white;
+    font-family: Times New Roman;
+    text-shadow: 1px 1px 3px black;
+}
+
+form{
+    text-align: left;
+}
+
+fieldset{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Sobre{
+    font-family: Castellar;
+}
+
+.Sobre table, td, th{
+    border: white 2px solid;    
+}
+
+.Sobre th{
+    margin: 0 15px 0 15px;
+    text-align: left;
+    text-shadow: 1px 1px 1px black;
+
+ }
+
+.Sobre td{
+    margin: 5px 5px 35px 5px;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+}
+
+.Title{
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+
+.Menu ul{
+    border: 1px solid black ;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    list-style: none;
+    width: 327px;
+    text-shadow: none;
+}
+
+.Menu ul li{
+    display:inline-table;
+}
+
+.Menu ul li a{
+    padding: 2px 4px;
+    display: inline-block;
+    background-color: #DDDDDD ;
+    color: black;
+    border-bottom: 3px solid #DDDDDD;
+}
+
+.Menu ul li a:hover{
+    background-color: black  ;
+    color: white;
+    border-bottom: 3px solid black;
+}
